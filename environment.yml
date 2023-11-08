@@ -2,6 +2,7 @@ name: markingpal
 
 dependencies:
   - python=3.11
+  - pip
   - pip:
     - jupyterlab
     - ipywidgets
