@@ -17,3 +17,18 @@ $ jupyter lab &
 ```
 
 Run the demo in `demo.ipynb`.
+
+## How to install?
+
+``` bash
+python3 -m venv env
+source env/bin/activate
+pip install --upgrade pip
+python3 -m pip install --upgrade -e .
+```
+
+Finally create the file `~/.markingpal/env` with the following content:
+
+```bash
+OPENAI_API_KEY=sk-XXXXXX
+```
